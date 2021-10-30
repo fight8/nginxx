@@ -24,7 +24,7 @@ RUN rm -f /etc/apt/sources.list && \
 RUN curl -sL https://deb.nodesource.com/setup_14.x | bash - && apt-get install -y nodejs
 
 # clone repo
-RUN git clone --recursive https://github.com/nhjp0/ngjnx /opt/womginx
+RUN git clone --recursive https://github.com/fight8/nginxx /opt/womginx
 RUN rm -f /opt/womginx/Dockerfile 
 RUN rm -f /opt/womginx/app.json
 
